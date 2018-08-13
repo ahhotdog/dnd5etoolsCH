@@ -1,13 +1,13 @@
 {
 	"condition": [
 		{
-			"name": "Blinded",
+			"name": "盲目[Blinded]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A blinded creature can't see and automatically fails any ability check that requires sight.",
-						"Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+						"目盲的生物自動敗於任何涉及視力的能力檢定。",
+						"對該生物的攻擊有優勢，該生物的攻擊有劣勢。"
 					]
 				}
 			],
@@ -15,13 +15,13 @@
 			"page": 290
 		},
 		{
-			"name": "Charmed",
+			"name": "迷惑[Charmed]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.",
-						"The charmer has advantage on any ability check to interact socially with the creature."
+						"被迷惑的生物不能攻擊施惑者或對施惑者使出有害的魔法或能力。",
+						"施惑者對該生物的所有社交檢定都帶有優勢。"
 					]
 				}
 			],
@@ -29,12 +29,12 @@
 			"page": 290
 		},
 		{
-			"name": "Deafened",
+			"name": "耳聾[Deafened]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A deafened creature can't hear and automatically fails any ability check that requires hearing."
+						"耳聾的生物自動敗於任何涉及聽力的能力檢定。"
 					]
 				}
 			],
@@ -42,14 +42,14 @@
 			"page": 290
 		},
 		{
-			"name": "Exhaustion",
+			"name": "力竭[Exhaustion]",
 			"entries": [
-				"Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called {@condition exhaustion}. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.",
+				"某些特殊能力和天險，例如捱餓或長期身處嚴寒和，會導致名為力竭的特殊狀態。力竭以一至六級量度。一項效應可能會賦予多級力竭。",
 				{
 					"type": "table",
 					"colLabels": [
-						"Level",
-						"Effect"
+						"級數",
+						"效果"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -58,46 +58,45 @@
 					"rows": [
 						[
 							"1",
-							"Disadvantage on ability checks"
+							"能力檢定帶有劣勢"
 						],
 						[
 							"2",
-							"Speed halved"
+							"速度減半"
 						],
 						[
 							"3",
-							"Disadvantage on attack rolls and saving throws"
+							"攻擊骰和豁免帶有劣勢"
 						],
 						[
 							"4",
-							"Hit point maximum halved"
+							"生命值上限減到正常的一半"
 						],
 						[
 							"5",
-							"Speed reduced to 0"
+							"速度變成 0"
 						],
 						[
 							"6",
-							"Death"
+							"死亡"
 						]
 					]
 				},
-				"If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.",
-				"A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.",
-				"An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.",
-				"Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink."
+				"在完全消除它之前每一次額外施加的力竭都會將它的級數提升 1 級或效應所指定的級數。移除力竭的效應會減少它的級數，當減到 0或以下時就會完全去除角色的力竭效應。",
+				
+				"完成一次長休並攝取足夠的飲食可以將角色的力竭級數減輕 1 級。"
 			],
 			"source": "PHB",
 			"page": 291
 		},
 		{
-			"name": "Frightened",
+			"name": "恐慌[Frightened]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
-						"The creature can't willingly move closer to the source of its fear."
+						"只要恐慌的源頭保持在視野內，陷入恐慌的生物的能力檢定和攻擊骰都帶有劣勢。",
+						"該生物不能自主地移動到一個結束回合時會比一開始距離恐慌源頭更近的地方。"
 					]
 				}
 			],
@@ -105,14 +104,14 @@
 			"page": 290
 		},
 		{
-			"name": "Grappled",
+			"name": "被擒[Grappled]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
-						"The condition ends if the grappler is {@condition incapacitated}.",
-						"The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the {@spell thunderwave|phb} spell."
+						"被擒生物的速度減至 0，並不能得益於任何速度加值。",
+						"如果擒抱者乏力，擒抱狀態會結束。",
+						"如果有效應將被擒者移離擒抱者或擒抱效應的觸及，這狀態也會結束。也會因為 {@spell thunderwave|phb} 法術而取消效果."
 					]
 				}
 			],
@@ -120,12 +119,12 @@
 			"page": 290
 		},
 		{
-			"name": "Incapacitated",
+			"name": "乏力[Incapacitated]",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"An incapacitated creature can't take actions or reactions."
+						"乏力的生物不能採取動作或反應。"
 					]
 				}
 			],
